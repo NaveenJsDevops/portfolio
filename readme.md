@@ -1,6 +1,6 @@
 <h1 align="center"> Personal Portfolio </h1>
 
-<img width="945" alt="image" src="">
+<img src="/assets/image.png" alt="Description of the image" width="945" />
 
 ### Deployed link: https://naveen.netlify.app/
 
