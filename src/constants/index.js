@@ -506,7 +506,7 @@ export const projects = [
   {
     id: "project-2",
     title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
+    github: "https://github.com/NaveenJsDevops/GreenTrust",
     link: "https://green-trust-fantom.netlify.app/",
     image: greentrust,
     content:
@@ -594,7 +594,7 @@ export const projects = [
     id: "project-4",
     title: "Samsotech Table Management System",
     github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
+    link: "https://www.linkedin.com/posts/NaveenJsDevops_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
     image: placeicon,
     content:
       "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
@@ -722,7 +722,7 @@ export const projects = [
   {
     id: "project-8",
     title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
+    github: "https://github.com/NaveenJsDevops/Cluboard",
     link: "",
     image: cluboard,
     content:
@@ -763,7 +763,7 @@ export const projects = [
   {
     id: "project-9",
     title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
+    github: "https://github.com/NaveenJsDevops/Cash-Flow-Minmiser",
     link: "https://minimise-cash-flow.netlify.app/",
     image: cash_flow,
     content:
@@ -789,7 +789,7 @@ export const projects = [
   {
     id: "project-10",
     title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
+    github: "https://github.com/NaveenJsDevops/personal-portfolio",
     link: "https://parthmittal.netlify.app/",
     image: portfolio,
     content: "Personal portfolio website with React and Tailwind CSS.",
