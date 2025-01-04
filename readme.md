@@ -1,8 +1,8 @@
 <h1 align="center"> Personal Portfolio </h1>
 
-<img src="/assets/image.png" alt="Description of the image" width="945" />
+![Project Screenshot](src/assets/image.png)
 
-### Deployed link: https://naveen.netlify.app/
+### Deployed link: <https://naveen.netlify.app/>
 
 ## Table of Contents 📁
 
@@ -24,7 +24,7 @@
 - [Tailwind CSS](https://tailwindcss.com/)
 
 <li>Libraries/Tools</li>
-    
+
 - [ViteJS](https://vitejs.dev/)
 - [React Icons](https://react-icons.github.io/react-icons")
 - [Framer](https://www.framer.com/)
@@ -124,7 +124,6 @@ our community aspires to be a respectful place both during online and in-person 
 - Push your feature branch upto your remote repo with `git push origin <name-of-your-feature-branch>`
 - [Submit a Pull Request](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#making-a-pull-request) to the main branch.
 - After any questions or changes have been resolved, your contribution would be merged in!
-
 
 #### If you found this repo helpful in anyway, considering giving it a star - it would mean the world to me! 🌟
 
