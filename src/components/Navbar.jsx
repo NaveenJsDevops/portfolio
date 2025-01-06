@@ -11,7 +11,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const section = document.getElementById("");
+      const section = document.getElementById("home");
       if (section) {
         const { top, bottom } = section.getBoundingClientRect();
         setIsHomePage(top <= 0 && bottom > 0);
