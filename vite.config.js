@@ -5,7 +5,7 @@ import path from 'path';
 export default defineConfig({
   plugins: [react()],
   build: {
-    chunkSizeWarningLimit: 1000,  // Increase the warning limit to 1MB
+    chunkSizeWarningLimit: 10000,  // Increase the warning limit to 10MB
     outDir: 'build',
     rollupOptions: {
       input: {
