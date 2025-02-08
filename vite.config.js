@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 10000,  // Increase the warning limit to 10MB
-    outDir: 'build',
+    outDir: 'dist',
     rollupOptions: {
       input: {
         index: path.resolve(__dirname, 'index.html'),
