@@ -105,8 +105,8 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby, DiGrails } from "react-icons/di";
 
-export const resumeLink = "https://docs.google.com/document/d/1xHZgEdWC92Nrnr8mSRWgk3lUsSr0HUbrVq2tv9FdJ10/edit?usp=sharing";
-export const repoLink = "https://github.com/NaveenJsDevops/personal-portfolio";
+export const resumeLink = "https://docs.google.com/document/d/1Ot7L8Eq9pgNI5ld0usuJvQ6QwUVbxchT3p0dEq5a7sI/edit?usp=sharing";
+export const repoLink = "https://github.com/NaveenJsDevops/portfolio";
 export const callToAction = "https://www.linkedin.com/in/naveen-js-dev";
 
 export const navLinks = [
@@ -122,10 +122,10 @@ export const navLinks = [
     id: "achievements",
     title: "Professional Achievements & Certifications",
   },
-  // {
-  //   id: "extraCurricular",
-  //   title: "Extra Curricular",
-  // },
+  {
+    id: "projects",
+    title: "Projects",
+  },
   {
     id: "contactMe",
     title: "Get in Touch",
@@ -241,26 +241,21 @@ export const skills = [
       },
       {
         id: "pl-2",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-3",
         icon: DiJava,
         name: "Java",
       },
       {
-        id: "pl-4",
+        id: "pl-3",
         icon: AiFillHtml5,
         name: "HTML",
       },
       {
-        id: "pl-5",
+        id: "pl-4",
         icon: DiCss3,
         name: "CSS",
       },
       {
-        id: "pl-6",
+        id: "pl-5",
         icon: SiJavascript,
         name: "JavaScript",
       }
@@ -312,7 +307,7 @@ export const skills = [
       {
         id: "f-9",
         icon: SiSpringboot,
-        name: "Sring Boot",
+        name: "Spring Boot",
       },
     ],
   },
@@ -422,7 +417,7 @@ export const experiences = [
     positions: [
       {
         title: "Med Tech Full Stack Engineer",
-        duration: "Nov 2023 - Present",
+        duration: "Nov 2023 - Jan 2025",
         content: [
           {
             text: "Developed and maintained platform-level APIs using Python FastAPI, Grails, Firebase and MySQL to support applications focusing on digital therapeutics for alcohol addiction, mental health, and cirrhosis. Contributed to the platform infrastructure enabling seamless functionality for apps such as the AlcoChange, Companion App for AlcoChange, DryDay, BeeDry, BeeHappy  and Cognitive Behavioral Therapy (CBT) modules."          },
@@ -469,12 +464,12 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
+    title: "Developer Portfolio",
+    github: "https://github.com/NaveenJsDevops/portfolio",
+    link: "https://naveenjsdevops.github.io/portfolio/",
     image: comicify_ai,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "This Developer Portfolio showcases my expertise as a Full Stack Engineer, featuring a range of projects that highlight my skills in Java, Python, React JS, and MySQL. Designed with an intuitive, responsive interface, it demonstrates my approach to solving complex software challenges and my commitment to creating impactful, user-friendly applications.",
     stack: [
       {
         id: "icon-1",
@@ -485,32 +480,17 @@ export const projects = [
         id: "icon-2",
         icon: SiTailwindcss,
         name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
-      },
-      {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
       },
     ],
   },
   {
     id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/NaveenJsDevops/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
+    title: "Commercial Invoice Generator",
+    github: "https://github.com/NaveenJsDevops/invoice-generator",
+    link: "https://naveenjsdevops.github.io/invoice-generator/",
     image: greentrust,
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "This project features a robust Commercial Invoice Generator designed to streamline the creation of invoices for businesses engaged in international trade. It automates the calculation of taxes, duties, and totals, ensuring accuracy and compliance with global trade regulations, all while providing a user-friendly interface for efficient invoice management.",
     stack: [
       {
         id: "icon-1",
@@ -521,293 +501,6 @@ export const projects = [
         id: "icon-2",
         icon: SiTailwindcss,
         name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
-    ],
-  },
-  {
-    id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
-    content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
-      },
-      {
-        id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
-    ],
-  },
-  {
-    id: "project-4",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/NaveenJsDevops_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
-      },
-    ],
-  },
-  {
-    id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content:
-      "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
-      },
-      {
-        id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
-      },
-      {
-        id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
-      },
-      {
-        id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API"
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/NaveenJsDevops/Cluboard",
-    link: "",
-    image: cluboard,
-    content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/NaveenJsDevops/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/NaveenJsDevops/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
       },
     ],
   },
@@ -1019,7 +712,7 @@ export const aboutMe = {
     phone: "9566702656",
     email: "naveenjs.be@gmail.com",
     githubUsername: 'NaveenJsDevops',
-    tagLine: "No.240, Gandhi St, Ettivadi Villiage, Polur TK, Tiruvannamalai DT, Tamil Nadu-606 907",
+    tagLine: "Chennai, Tamil Nadu-600 054",
     intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
 }
 

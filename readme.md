@@ -2,8 +2,6 @@
 
 ![Project Screenshot](src/assets/image.png)
 
-### Deployed link: <https://naveen.netlify.app/>
-
 ## Table of Contents 📁
 
 1. [Tech Stack](#tech-stack-)
@@ -72,7 +70,7 @@ Three main things have to be changed to customize it your way (please open an is
 Environment variables store sensitive information that vary for the user and should not be checked into source control.
 One such example is the GitHub personal access token to automatically fetch the Open Source Contributions.
 
-- A personal access token can be created to use the GitHub API following the official guide from GitHub - [GitHub Docs - Creating  personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
+- A personal access token can be created to use the GitHub API following the official guide from GitHub - [GitHub Docs - Creating personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
 
 The environment variables are to be added onto the .env file
 
@@ -91,7 +89,7 @@ Since we have env variables, make sure to add them from the Netlify UI as well. 
 We welcome contributions in the form of pull requests, issues and documentation. Feel free to help us in any way! ❤️
 
 - Please read and abide by our [Code of Conduct](https://github.com/NaveenJsDevops/naveen/blob/main/CODE_OF_CONDUCT.md);
-our community aspires to be a respectful place both during online and in-person interactions.
+  our community aspires to be a respectful place both during online and in-person interactions.
 - Please follow the [installation guide](https://github.com/NaveenJsDevops/naveen/blob/main/readme.md#installation-guide) and the [sample git workflow](https://github.com/NaveenJsDevops/naveen/blob/main/readme.md#sample-git-workflow) to contribute.
 
 ## Installation Guide 🧑‍💻

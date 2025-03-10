@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { close, parthmittal, menu } from "../assets";
+import { close, menu } from "../assets";
 import { navLinks } from "../constants";
 import { scrollToSection } from "../lib/helperFunctions";
 import Lottie from "lottie-react";
