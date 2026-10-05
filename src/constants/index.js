@@ -33,7 +33,12 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  uxmint,
+  resumePdf,
+  freadom,
+  bank,
+  todo,
 } from "../assets";
 
 import {
@@ -47,7 +52,6 @@ import {
 } from "react-icons/ai";
 
 import {
-  SiDjango,
   SiJavascript,
   SiBootstrap,
   SiReact,
@@ -57,27 +61,11 @@ import {
   SiSpringboot,
   SiGraphql,
   SiPython,
-  SiRubyonrails,
-  SiJquery,
   SiVisualstudiocode,
   SiPostman,
   SiGit,
   SiMysql,
-  SiSolidity,
-  SiNetlify,
-  SiChartdotjs,
-  SiArduino,
-  SiWeb3Dotjs,
-  SiIpfs,
-  SiDotnet,
-  SiTwilio,
-  SiFlutter,
-  SiReplit,
   SiFirebase,
-  SiFigma,
-  SiGooglemaps,
-  SiOpenai,
-  SiGooglecloud,
   SiNextdotjs,
   SiBitbucket,
   SiJira,
@@ -88,24 +76,22 @@ import {
   SiEclipseide,
   SiSlack,
   SiIntellijidea,
+  SiTypescript,
+  SiNodedotjs,
+  SiAngular,
+  SiIonic,
+  SiMongodb,
+  SiPostgresql,
+  SiVite,
+  SiWordpress,
+  SiShopify,
+  SiConfluence,
 } from "react-icons/si";
 
-import {
-  FaHardHat,
-  FaRust
-} from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
+import { DiCss3, DiJava, DiGrails } from "react-icons/di";
 
-import {
-  IoIosNotificationsOutline
-} from "react-icons/io";
-
-import {
-  FaGolang
-} from "react-icons/fa6";
-
-import { DiCss3, DiJava, DiMsqlServer, DiRuby, DiGrails } from "react-icons/di";
-
-export const resumeLink = "https://docs.google.com/document/d/1Ot7L8Eq9pgNI5ld0usuJvQ6QwUVbxchT3p0dEq5a7sI/edit?usp=sharing";
+export const resumeLink = resumePdf;
 export const repoLink = "https://github.com/NaveenJsDevops/portfolio";
 export const callToAction = "https://www.linkedin.com/in/naveen-js-dev";
 
@@ -120,7 +106,7 @@ export const navLinks = [
   },
   {
     id: "achievements",
-    title: "Professional Achievements & Certifications",
+    title: "Achievements & Certifications",
   },
   {
     id: "projects",
@@ -132,112 +118,81 @@ export const navLinks = [
   },
 ];
 
-// Add your past academic experiences here
+// Academic background
 export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "Sri Balaji Chockalingam Engineering College, Tiruvannamalai, Tamil Nadu",
-    degree: "Bachelor of Engineering",
+    title: "Sri Balaji Chockalingam Engineering College, Arni",
+    degree: "Bachelor of Engineering (BE MECH)",
     duration: "August 2019 - June 2023",
-    content1: "Major: Mechanical Engineering",
-    content2: "CGPA: 8.5",
+    content1: "Anna University | Major: Mechanical Engineering",
+    content2: "Aggregate: 85% (CGPA: 8.5)",
   },
   {
     id: "education-2",
     icon: pba,
-    title: "Don Bosco Higher Secondary School, Tiruvannamalai, Tamil Nadu",
-    degree: "HSC",
+    title: "Don Bosco Hr. Sec. School, Polur",
+    degree: "Higher Secondary Certificate (HSC)",
     duration: "June 2018 - March 2019",
-    content1: "CGPA: 5.5",
+    content1: "State Board of Tamil Nadu",
+    content2: "Percentage: 50%",
   },
   {
     id: "education-3",
     icon: sslc,
-    title: "Asian Matriculation School, Tiruvannamalai, Tamil Nadu",
-    degree: "SSLC",
+    title: "Asian Matriculation School, Sengunam",
+    degree: "Secondary School Leaving Certificate (SSLC)",
     duration: "June 2016 - March 2017",
-    content1: "CGPA: 8.8",
-  }
+    content1: "State Board of Tamil Nadu",
+    content2: "Percentage: 80%",
+  },
 ];
 
-// Add your past achievments here for example - rankings in hackathons/events
 export const achievements = [
   {
     id: "a-1",
     icon: java,
-    event: "Full Stack Java Training",
-    position: "Completed",
-    content1: "Besant Technologies, Porur",
+    event: "Full Stack Java, React & Web Development",
+    position: "Certified Program",
+    content1: "Besant Technologies, Chennai — Comprehensive training in Core Java, React, Angular, JavaScript, MySQL, HTML5 & CSS3.",
     project: "https://drive.google.com/file/d/1cLlaZwEU9UfZNzM2PVhVmTSr6oGQ2LZb/view?usp=drive_link",
   },
   {
     id: "a-2",
-    icon: html,
-    event: "HTML 4.01 & 5, CSS 3 and BootStrap Training",
-    position: "Completed",
-    content1: "Besant Technologies, Porur",
-    project: "https://drive.google.com/file/d/15GO8luKpSjMMBUDXnu_HrZjg7AfLHBPV/view?usp=drive_link",
-  },
-  {
-    id: "a-3",
-    icon: javascript,
-    event: "JavaScript Training",
-    position: "Completed",
-    content1: "Besant Technologies, Porur",
-    project: "https://drive.google.com/file/d/1-3c6l-9eX0C6yHc4k_s87dsHS-mojiXp/view?usp=drive_link",
-  },
-  {
-    id: "a-4",
-    icon: react,
-    event: "ReactJS Training",
-    position: "Completed",
-    content1: "Besant Technologies, Porur",
-    project: "https://drive.google.com/file/d/1bU05E6LcA5a5GQWliyXL1bACz6eHVeJp/view?usp=drive_link",
-  },
-  {
-    id: "a-5",
-    icon: mysql,
-    event: "MySQL Training",
-    position: "Completed",
-    content1: "Besant Technologies, Porur",
-    project: "https://drive.google.com/file/d/1R1rlaP00Ouj-Z1maOwnmYGz4e99RKlZ1/view?usp=drive_link",
-  },
-  {
-    id: "a-6",
     icon: excel,
-    event: "Advanced Excel Tutorial Online",
-    position: "Completed",
-    content1: "Elearning Market",
+    event: "Advanced Excel Tutorial & Analytics",
+    position: "Certified",
+    content1: "Elearning Market — Advanced formula modeling, data visualization, and reporting.",
     project: "https://drive.google.com/file/d/1BYvJ0LZB1cnYFfuz7lEegaer3JBQVRJT/view?usp=drive_link",
   },
   {
-    id: "a-7",
+    id: "a-3",
     icon: robot,
-    event: "Robatics Simulation for Manufacturing",
-    position: "Completed",
-    content1: "Skill Sonics by Naan Mudhalvan",
+    event: "Robotics Simulation for Manufacturing",
+    position: "Industry Certified",
+    content1: "Skill Sonics by Naan Mudhalvan — Industrial robotics workflows and automated manufacturing systems.",
     project: "https://drive.google.com/file/d/1mbUyooLrhV7vMglPIKteIAppNpGKXmgH/view?usp=drive_link",
   },
   {
-    id: "a-8",
+    id: "a-4",
     icon: mech,
-    event: "Design and Analysis of two wheeler clutch inner hub",
-    position: "Published Journal Papar",
-    content1: "in IJIRSET, Volume 12, Issue 5, May 2023",
+    event: "Design and Analysis of Two Wheeler Clutch Inner Hub",
+    position: "Published Journal Paper",
+    content1: "Published in IJIRSET, Volume 12, Issue 5, May 2023 — Finite element modeling and structural analysis.",
     project: "https://drive.google.com/file/d/1riJDLozgb0dm2oKCgtOGx-dmGn56eBru/view?usp=drive_link",
   },
 ];
 
-// Add your software developments skills here for example - programming languages, frameworks etc.
+// Technical skills grouped by categories
 export const skills = [
   {
     title: "Programming Languages",
     items: [
       {
         id: "pl-1",
-        icon: SiPython,
-        name: "Python",
+        icon: FaGolang,
+        name: "Golang",
       },
       {
         id: "pl-2",
@@ -246,181 +201,251 @@ export const skills = [
       },
       {
         id: "pl-3",
-        icon: AiFillHtml5,
-        name: "HTML",
+        icon: SiPython,
+        name: "Python",
       },
       {
         id: "pl-4",
-        icon: DiCss3,
-        name: "CSS",
+        icon: SiJavascript,
+        name: "JavaScript",
       },
       {
         id: "pl-5",
-        icon: SiJavascript,
-        name: "JavaScript",
-      }
+        icon: SiTypescript,
+        name: "TypeScript",
+      },
+      {
+        id: "pl-6",
+        icon: DiCss3,
+        name: "CSS3",
+      },
+      {
+        id: "pl-7",
+        icon: AiFillHtml5,
+        name: "HTML5",
+      },
     ],
   },
   {
-    title: "Frameworks/Libraries",
+    title: "Frontend & Mobile",
     items: [
       {
-        id: "f-1",
-        icon: DiGrails,
-        name: "Grails",
-      },
-      {
-        id: "f-2",
+        id: "fm-1",
         icon: SiReact,
-        name: "ReactJS",
+        name: "React JS",
       },
       {
-        id: "f-3",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        id: "fm-2",
+        icon: SiReact,
+        name: "React Native",
       },
       {
-        id: "f-4",
+        id: "fm-3",
+        icon: SiAngular,
+        name: "Angular",
+      },
+      {
+        id: "fm-4",
+        icon: SiNextdotjs,
+        name: "Next.js",
+      },
+      {
+        id: "fm-5",
+        icon: SiIonic,
+        name: "Ionic",
+      },
+      {
+        id: "fm-6",
+        icon: SiVite,
+        name: "Vite",
+      },
+      {
+        id: "fm-7",
         icon: SiTailwindcss,
         name: "Tailwind CSS",
       },
       {
-        id: "f-5",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "f-6",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-7",
-        icon: SiFastapi,
-        name: "FastAPI",
-      },
-      {
-        id: "f-8",
-        icon: SiFlask,
-        name: "Flask",
-      },
-      {
-        id: "f-9",
-        icon: SiSpringboot,
-        name: "Spring Boot",
+        id: "fm-8",
+        icon: SiBootstrap,
+        name: "Bootstrap",
       },
     ],
   },
   {
-    title: "Tools",
+    title: "Backend Frameworks & APIs",
     items: [
       {
-        id: "t-1",
-        icon: SiFirebase,
-        name: "Firebase",
+        id: "b-1",
+        icon: SiNodedotjs,
+        name: "Node.js",
       },
       {
-        id: "t-2",
+        id: "b-2",
+        icon: SiFastapi,
+        name: "FastAPI",
+      },
+      {
+        id: "b-3",
+        icon: SiFlask,
+        name: "Flask",
+      },
+      {
+        id: "b-4",
+        icon: SiSpringboot,
+        name: "Spring Boot",
+      },
+      {
+        id: "b-5",
+        icon: DiGrails,
+        name: "Grails",
+      },
+      {
+        id: "b-6",
+        icon: SiGraphql,
+        name: "GraphQL",
+      },
+    ],
+  },
+  {
+    title: "Database Management & Cloud",
+    items: [
+      {
+        id: "db-1",
         icon: SiMysql,
         name: "MySQL",
       },
       {
-        id: "t-3",
-        icon: SiPostman,
-        name: "Postman",
+        id: "db-2",
+        icon: SiPostgresql,
+        name: "PostgreSQL",
       },
       {
-        id: "t-4",
-        icon: SiSwagger,
-        name: "Swagger",
+        id: "db-3",
+        icon: SiMongodb,
+        name: "MongoDB",
       },
       {
-        id: "t-5",
-        icon: SiGit,
-        name: "Git",
-      },
-      {
-        id: "t-6",
-        icon: AiFillGithub,
-        name: "GitHub",
-      },
-      {
-        id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
-      },
-      {
-        id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
-      },
-      {
-        id: "t-9",
+        id: "db-4",
         icon: SiFirebase,
         name: "Firebase",
       },
+    ],
+  },
+  {
+    title: "DevOps, Tools & IDEs",
+    items: [
       {
-        id: "t-10",
+        id: "t-1",
         icon: SiDocker,
         name: "Docker",
       },
       {
-        id: "t-11",
+        id: "t-2",
         icon: SiLinux,
         name: "Linux",
       },
       {
-        id: "t-12",
+        id: "t-3",
+        icon: SiGit,
+        name: "Git",
+      },
+      {
+        id: "t-4",
+        icon: AiFillGithub,
+        name: "GitHub",
+      },
+      {
+        id: "t-5",
+        icon: AiOutlineGitlab,
+        name: "GitLab",
+      },
+      {
+        id: "t-6",
         icon: SiBitbucket,
         name: "Bitbucket",
       },
       {
-        id: "t-13",
+        id: "t-7",
+        icon: SiPostman,
+        name: "Postman",
+      },
+      {
+        id: "t-8",
+        icon: SiSwagger,
+        name: "Swagger",
+      },
+      {
+        id: "t-9",
         icon: SiJira,
         name: "Jira",
       },
       {
-        id: "t-14",
-        icon: SiSlack,
-        name: "Slack",
+        id: "t-10",
+        icon: SiConfluence,
+        name: "Confluence",
       },
       {
-        id: "t-15",
+        id: "t-11",
         icon: SiVisualstudiocode,
         name: "VS Code",
       },
       {
-        id: "t-16",
+        id: "t-12",
         icon: SiIntellijidea,
-        name: "Intellij Ultimate",
+        name: "IntelliJ IDEA",
       },
       {
-        id: "t-17",
+        id: "t-13",
         icon: SiPycharm,
         name: "PyCharm",
       },
       {
-        id: "t-18",
+        id: "t-14",
         icon: SiEclipseide,
         name: "Eclipse",
+      },
+      {
+        id: "t-15",
+        icon: SiSlack,
+        name: "Slack",
+      },
+      {
+        id: "t-16",
+        icon: SiWordpress,
+        name: "WordPress",
+      },
+      {
+        id: "t-17",
+        icon: SiShopify,
+        name: "Shopify",
       },
     ],
   },
 ];
 
-// Add your current/past professional work experience here
+// Professional work experience
 export const experiences = [
   {
-    organisation: "CyberLiver Limited, Chennai",
-    logo: oracle,
-    link: "https://www.cyberliver.com/about-us.html",
+    organisation: "UX Mint LLP, Chennai",
+    logo: uxmint,
+    link: "https://www.uxmint.in/",
     positions: [
       {
-        title: "Med Tech Full Stack Engineer",
-        duration: "Nov 2023 - Jan 2025",
+        title: "Jr Full Stack Developer",
+        duration: "July 2025 - Present",
         content: [
           {
-            text: "Developed and maintained platform-level APIs using Python FastAPI, Grails, Firebase and MySQL to support applications focusing on digital therapeutics for alcohol addiction, mental health, and cirrhosis. Contributed to the platform infrastructure enabling seamless functionality for apps such as the AlcoChange, Companion App for AlcoChange, DryDay, BeeDry, BeeHappy  and Cognitive Behavioral Therapy (CBT) modules."          },
+            text: "Collaborated on the Sify Technologies project, involving the development and maintenance of the NSE project, network dashboards, and customer portals.",
+          },
+          {
+            text: "Leveraged Node.js, Next.js, and Angular for full-stack development, ensuring robust and scalable application performance; integrated and managed MongoDB databases to handle complex data requirements and efficient retrieval for dashboards and portals.",
+          },
+          {
+            text: "Contributed to the Octakidz project, a kids' learning platform, by developing a web interface where kids complete activities and upload answers; integrated the Mistral AI model to evaluate and analyze student submissions. Built the platform using Angular, Node.js, and Python, and developed a cross-platform mobile app using Angular Ionic.",
+          },
+          {
+            text: "Worked on WordPress, Shopify, and React Native mobile apps for various client projects.",
+          },
         ],
       },
     ],
@@ -431,12 +456,33 @@ export const experiences = [
     link: "https://www.cyberliver.com/about-us.html",
     positions: [
       {
-        title: "Med Tech Full Stack Engineer Intern",
+        title: "MedTech Full Stack Engineer",
+        duration: "Nov 2023 - Jan 2025",
+        content: [
+          {
+            text: "Developed and maintained platform-level APIs using Python (FastAPI), Java, Firebase, and MySQL to support digital therapeutics applications for alcohol addiction, mental health, and cirrhosis.",
+          },
+          {
+            text: "Contributed to platform infrastructure, ensuring seamless functionality across applications like AlcoChange, Companion App for AlcoChange, DryDay, BeeDry, BeeHappy, and Cognitive Behavioral Therapy (CBT) modules.",
+          },
+          {
+            text: "Enhanced backend capabilities to manage user data, daily progress tracking, and dynamic content delivery — enabling real-time updates via clinical dashboards without requiring app-side modifications.",
+          },
+          {
+            text: "Implemented multilingual, personalized patient engagement solutions for data collection and analysis, enabling the CirrhoX and AlcoX algorithms in therapeutic interventions.",
+          },
+          {
+            text: "Optimized master data loading by structuring data into TSV files and updating master datasets during app startup, significantly reducing SQL query execution times and improving overall application performance.",
+          },
+        ],
+      },
+      {
+        title: "MedTech Full Stack Engineer (Intern)",
         duration: "Jun 2023 - Nov 2023",
         content: [
           {
-            text: "Converted Grails 2.4.5 domain models into Python SQLAlchemy models, streamlining the migration process and ensuring compatibility with the evolving platform architecture",
-          }
+            text: "Migrated Java models to Python SQLAlchemy models, streamlining the transition and ensuring compatibility with the evolving platform architecture.",
+          },
         ],
       },
     ],
@@ -447,237 +493,270 @@ export const experiences = [
     link: "https://shiash.com/about-us.php",
     positions: [
       {
-        title: "Java Full Stack Developer Intern",
+        title: "Full Stack Java Developer (Intern)",
         duration: "Jan 2023 - May 2023",
         content: [
           {
-            text: "Completed a project titled 'Brunt Reversal Just-In-Time Glitch Prophecy' using JAVA/J2EE version JDK 8, Developed a web application for storing data in a warehouse with unique IDs and scanning QR codes, which significantly enhanced security, prevented data loss, and ensured efficient data retrieval from the database",
-            link: "",
+            text: "Completed a project titled 'Brunt Reversal Just-In-Time Glitch Prophecy' utilizing Java/J2EE (JDK 8).",
+          },
+          {
+            text: "Developed a web application for data warehousing with unique ID generation and QR code scanning — significantly enhancing security, preventing data loss, and improving data retrieval efficiency.",
           },
         ],
       },
     ],
-  }
+  },
 ];
 
-// Add information about all the projects to be listed out in your portfolio
+// All 14 projects from GitHub portfolio
 export const projects = [
   {
     id: "project-1",
-    title: "Developer Portfolio",
-    github: "https://github.com/NaveenJsDevops/portfolio",
-    link: "https://naveenjsdevops.github.io/portfolio/",
-    image: comicify_ai,
+    title: "Sify & NSE Network Monorepo",
+    category: "Full Stack & Web",
+    github: "https://github.com/NaveenJsDevops/sifymonorepo",
+    link: "https://sifymonorepo.vercel.app",
+    image: cdc,
     content:
-      "This Developer Portfolio showcases my expertise as a Full Stack Engineer, featuring a range of projects that highlight my skills in Java, Python, React JS, and MySQL. Designed with an intuitive, responsive interface, it demonstrates my approach to solving complex software challenges and my commitment to creating impactful, user-friendly applications.",
+      "Enterprise monorepo application collaborated for Sify Technologies and NSE project, featuring high-performance network monitoring dashboards, analytics, and responsive customer portals.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
+      { id: "i-1", icon: SiNextdotjs, name: "Next.js" },
+      { id: "i-2", icon: SiAngular, name: "Angular" },
+      { id: "i-3", icon: SiNodedotjs, name: "Node.js" },
+      { id: "i-4", icon: SiMongodb, name: "MongoDB" },
     ],
   },
   {
     id: "project-2",
+    title: "Metadata Tree Schema Builder",
+    category: "Full Stack & Web",
+    github: "https://github.com/NaveenJsDevops/metadata-tree-poc",
+    link: "https://github.com/NaveenJsDevops/metadata-tree-poc",
+    image: chargeswap,
+    content:
+      "Production-ready tree-based visual metadata schema builder developed with React 19, TypeScript, Vite, React Flow, and Dagre for interactive node diagrams and hierarchical schema management.",
+    stack: [
+      { id: "i-1", icon: SiReact, name: "React 19" },
+      { id: "i-2", icon: SiTypescript, name: "TypeScript" },
+      { id: "i-3", icon: SiVite, name: "Vite" },
+    ],
+  },
+  {
+    id: "project-3",
+    title: "DevBox Backend Platform",
+    category: "Python & Backend",
+    github: "https://github.com/NaveenJsDevops/devbox-backend",
+    link: "https://github.com/NaveenJsDevops/devbox-backend",
+    image: averlon,
+    content:
+      "Robust containerized backend architecture engineered in Python for scalable multi-service orchestration, automated API routes, database integrations, and developer sandbox environments.",
+    stack: [
+      { id: "i-1", icon: SiPython, name: "Python" },
+      { id: "i-2", icon: SiFastapi, name: "FastAPI" },
+      { id: "i-3", icon: SiDocker, name: "Docker" },
+      { id: "i-4", icon: SiPostgresql, name: "PostgreSQL" },
+    ],
+  },
+  {
+    id: "project-4",
+    title: "Mint Tenant Core Engine",
+    category: "Python & Backend",
+    github: "https://github.com/NaveenJsDevops/mint-tenant-core",
+    link: "https://github.com/NaveenJsDevops/mint-tenant-core",
+    image: recruitment,
+    content:
+      "Multi-tenant core architectural engine built in Python providing isolated tenant database separation, role-based access control (RBAC), and centralized API management.",
+    stack: [
+      { id: "i-1", icon: SiPython, name: "Python" },
+      { id: "i-2", icon: SiMysql, name: "MySQL" },
+      { id: "i-3", icon: SiLinux, name: "Linux" },
+    ],
+  },
+  {
+    id: "project-5",
+    title: "Mint Tenant Admin Portal",
+    category: "Full Stack & Web",
+    github: "https://github.com/NaveenJsDevops/mint-tenant-core-frontend",
+    link: "https://github.com/NaveenJsDevops/mint-tenant-core-frontend",
+    image: freadom,
+    content:
+      "Modern tenant administration frontend portal built with React and Tailwind CSS, allowing organization provisioning, permission controls, and usage analytics dashboards.",
+    stack: [
+      { id: "i-1", icon: SiReact, name: "React" },
+      { id: "i-2", icon: SiTailwindcss, name: "TailwindCSS" },
+      { id: "i-3", icon: SiJavascript, name: "JavaScript" },
+    ],
+  },
+  {
+    id: "project-6",
+    title: "MoodTune AI Audio Microservice",
+    category: "Python & Backend",
+    github: "https://github.com/NaveenJsDevops/Mood-Tune-Python-Service",
+    link: "https://github.com/NaveenJsDevops/Mood-Tune-Python-Service",
+    image: iris,
+    content:
+      "Python microservice powered by machine learning algorithms designed to analyze user emotion states and dynamically generate personalized music recommendations.",
+    stack: [
+      { id: "i-1", icon: SiPython, name: "Python" },
+      { id: "i-2", icon: SiFlask, name: "Flask" },
+      { id: "i-3", icon: SiFastapi, name: "FastAPI" },
+    ],
+  },
+  {
+    id: "project-7",
+    title: "MoodTune Music Player App",
+    category: "Mobile Apps",
+    github: "https://github.com/NaveenJsDevops/Mood-Tune-App",
+    link: "https://github.com/NaveenJsDevops/Mood-Tune-App",
+    image: bank,
+    content:
+      "Emotion-driven music streaming mobile application built in React Native, delivering customized acoustic experiences based on detected user sentiment and mood analysis.",
+    stack: [
+      { id: "i-1", icon: SiReact, name: "React Native" },
+      { id: "i-2", icon: SiJavascript, name: "JavaScript" },
+    ],
+  },
+  {
+    id: "project-8",
+    title: "Focus Bubble Mobile App",
+    category: "Mobile Apps",
+    github: "https://github.com/NaveenJsDevops/focus-bubble",
+    link: "https://github.com/NaveenJsDevops/focus-bubble",
+    image: cluboard,
+    content:
+      "Offline focus and productivity timer mobile application built with React Native for Android, helping users maximize deep work sessions without digital distractions.",
+    stack: [
+      { id: "i-1", icon: SiReact, name: "React Native" },
+      { id: "i-2", icon: SiJavascript, name: "JavaScript" },
+    ],
+  },
+  {
+    id: "project-9",
+    title: "Simple & Scientific Calculator",
+    category: "Mobile Apps",
+    github: "https://github.com/NaveenJsDevops/Calculator-App",
+    link: "https://github.com/NaveenJsDevops/Calculator-App",
+    image: mech,
+    content:
+      "Simple and scientific calculator application created using React Native for Android, featuring advanced mathematical functions, formula evaluation, and a responsive interface.",
+    stack: [
+      { id: "i-1", icon: SiReact, name: "React Native" },
+      { id: "i-2", icon: SiJavascript, name: "JavaScript" },
+    ],
+  },
+  {
+    id: "project-10",
+    title: "Apica Search Engine (Go + React)",
+    category: "Full Stack & Web",
+    github: "https://github.com/NaveenJsDevops/search-engine-golang-react",
+    link: "https://github.com/NaveenJsDevops/search-engine-golang-react",
+    image: huntly,
+    content:
+      "High-performance full-stack search engine engineered for blazing-fast indexing and retrieval of large-scale log data and structured records. Powered by Golang for speed, paired with React.js.",
+    stack: [
+      { id: "i-1", icon: FaGolang, name: "Golang" },
+      { id: "i-2", icon: SiReact, name: "React" },
+      { id: "i-3", icon: SiTailwindcss, name: "TailwindCSS" },
+    ],
+  },
+  {
+    id: "project-11",
+    title: "Transport Hub Logistics Portal",
+    category: "Full Stack & Web",
+    github: "https://github.com/NaveenJsDevops/Transport_Hub",
+    link: "https://github.com/NaveenJsDevops/Transport_Hub",
+    image: genesis,
+    content:
+      "Frontend logistics management web app for Transport Hub, coordinating fleet dispatch, real-time cargo status tracking, and transit scheduling.",
+    stack: [
+      { id: "i-1", icon: SiReact, name: "React" },
+      { id: "i-2", icon: SiBootstrap, name: "Bootstrap" },
+      { id: "i-3", icon: SiJavascript, name: "JavaScript" },
+    ],
+  },
+  {
+    id: "project-12",
+    title: "Secret Santa Assignment Engine",
+    category: "Python & Backend",
+    github: "https://github.com/NaveenJsDevops/secret-santa-game",
+    link: "https://github.com/NaveenJsDevops/secret-santa-game",
+    image: todo,
+    content:
+      "Automated Secret Santa assigning project in Python implementing randomized fair pairing algorithms with zero self-matches, validation checks, and email distribution.",
+    stack: [
+      { id: "i-1", icon: SiPython, name: "Python" },
+    ],
+  },
+  {
+    id: "project-13",
     title: "Commercial Invoice Generator",
+    category: "Full Stack & Web",
     github: "https://github.com/NaveenJsDevops/invoice-generator",
     link: "https://naveenjsdevops.github.io/invoice-generator/",
     image: greentrust,
     content:
-      "This project features a robust Commercial Invoice Generator designed to streamline the creation of invoices for businesses engaged in international trade. It automates the calculation of taxes, duties, and totals, ensuring accuracy and compliance with global trade regulations, all while providing a user-friendly interface for efficient invoice management.",
+      "Commercial invoice generator designed to streamline invoice creation for international trade businesses. Automates calculations of taxes, duties, and totals with instant print/export.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
+      { id: "i-1", icon: SiReact, name: "React" },
+      { id: "i-2", icon: SiTailwindcss, name: "TailwindCSS" },
+    ],
+  },
+  {
+    id: "project-14",
+    title: "Modern Developer Portfolio",
+    category: "Full Stack & Web",
+    github: "https://github.com/NaveenJsDevops/portfolio",
+    link: "https://naveenjsdevops.github.io/portfolio/",
+    image: comicify_ai,
+    content:
+      "Personal developer portfolio built with React 18, Vite, and Tailwind CSS. Features full Light/Dark themes, Framer Motion animations, modular data architecture, and interactive contact & messaging integration.",
+    stack: [
+      { id: "i-1", icon: SiReact, name: "React" },
+      { id: "i-2", icon: SiTailwindcss, name: "TailwindCSS" },
+      { id: "i-3", icon: SiVite, name: "Vite" },
     ],
   },
 ];
 
-// Add links to blogs here
+// Blog posts (optional)
 export const blogPosts = [
   {
     id: "post-1",
-    title: "Blog Post 01 - Title",
+    title: "Building Scalable Digital Therapeutics APIs with FastAPI & MySQL",
     link: "#",
-    date: new Date().toLocaleDateString(), // Can be edited to any string format
+    date: new Date().toLocaleDateString(),
     image: "https://via.placeholder.com/600/92c952",
     tags: [
-      {
-        id: "tag-1",
-        name: "tag 01"
-      },
-      {
-        id: "tag-2",
-        name: "tag 03"
-      },
-      {
-        id: "tag-3",
-        name: "tag 03"
-      },
-    ],
-  },
-  {
-    id: "post-2",
-    title: "Blog Post 02 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/d32776",
-    tags: [
-      {
-        id: "tag-1",
-        name: "tag 01"
-      },
-      {
-        id: "tag-2",
-        name: "tag 03"
-      },
-      {
-        id: "tag-3",
-        name: "tag 03"
-      },
-    ],
-  },
-  {
-    id: "post-3",
-    title: "Blog Post 03 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/771796",
-    tags: [
-      {
-        id: "tag-1",
-        name: "tag 01"
-      },
-      {
-        id: "tag-2",
-        name: "tag 03"
-      },
-      {
-        id: "tag-3",
-        name: "tag 03"
-      },
+      { id: "tag-1", name: "FastAPI" },
+      { id: "tag-2", name: "Python" },
+      { id: "tag-3", name: "HealthTech" },
     ],
   },
 ];
 
-// Highlight your GitHub stats like - Organisation, Issues Opened, Pull Requests etc.
+// GitHub stats
 export const stats = [
   {
     id: "stats-1",
     title: "Organisations",
-    value: "2+",
+    value: "3+",
   },
   {
     id: "stats-2",
-    title: "Issues Opened",
-    value: "6+",
+    title: "Years Experience",
+    value: "3+",
   },
   {
     id: "stats-3",
-    title: "Pull Requests",
-    value: "6+",
+    title: "Completed Projects",
+    value: "14",
   },
 ];
 
-// List out the extra curricular activities you have induldged in like - student clubs, joining research groups etc.
-export const extraCurricular = [
-  {
-    id: 1,
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
-    content: [
-      {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
-      },
-      {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
-      },
-    ],
-    logo: devfolio,
-  },
-  {
-    id: 2,
-    organisation: "Google Developer Student Club, NITK",
-    title: "Co-Chair",
-    duration: "December 2021 - Present",
-    content: [
-      {
-        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
-        link: "",
-      },
-      {
-        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
-      },
-    ],
-    logo: gdsc,
-  },
-  {
-    id: 3,
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
-    content: [
-      {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
-        link: "",
-      },
-      {
-        text: "Won 7 inter-college solo dance competitions",
-        link: "",
-      },
-    ],
-    logo: genesis,
-  },
-  {
-    id: 4,
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
-    content: [
-      {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
-    id: 5,
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
-      },
-      {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
-        link: "",
-      },
-    ],
-    logo: ecell,
-  },
-];
+// Extra curricular activities (optional)
+export const extraCurricular = [];
 
-// Links to your social media profiles
+// Social media links
 export const socialMedia = [
   {
     id: "social-media-1",
@@ -687,7 +766,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/NaveenJsDevops",
+    link: "https://github.com/NaveenJsDevops",
   },
   {
     id: "social-media-3",
@@ -706,18 +785,29 @@ export const socialMedia = [
   },
 ];
 
-// Your professional summary
+// Professional summary matching resume
 export const aboutMe = {
-    name: "Naveen Kumar",
-    phone: "9566702656",
-    email: "naveenjs.be@gmail.com",
-    githubUsername: 'NaveenJsDevops',
-    tagLine: "Chennai, Tamil Nadu-600 054",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
-}
+  name: "Naveen Kumar J",
+  title: "Full Stack Developer",
+  phone: "9566702656",
+  email: "naveenjs.be@gmail.com",
+  githubUsername: "NaveenJsDevops",
+  tagLine: "Full Stack Developer | Chennai, Tamil Nadu",
+  intro:
+    "Full-Stack Developer with 3 years of experience designing and building scalable applications across diverse domains, including Digital Therapeutics, Network Provider platforms, Kids' Learning solutions, and B2B/B2C Dashboards. Adept at translating complex business requirements into intuitive, high-performance products, with a strong focus on usability, scalability, and reliability.",
+};
 
-// The maximum number of PRs to be displayed in the Open Source Contributions section.
+// Maximum items for OpenSource contributions
 export const itemsToFetch = 20;
 
-// Add names of GitHub repos you'd like to display open source contributions from in the 'org/repo' format. 
-export const includedRepos = ['publiclab/plots2', 'zulip/zulip', 'paritytech/polkadot-sdk'];
+// Included GitHub repos for open-source PR fetching
+export const includedRepos = [
+  "NaveenJsDevops/sifymonorepo",
+  "NaveenJsDevops/portfolio",
+  "NaveenJsDevops/search-engine-golang-react",
+  "NaveenJsDevops/invoice-generator",
+  "NaveenJsDevops/metadata-tree-poc",
+  "NaveenJsDevops/devbox-backend",
+  "NaveenJsDevops/mint-tenant-core",
+  "NaveenJsDevops/focus-bubble",
+];

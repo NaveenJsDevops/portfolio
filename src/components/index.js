@@ -13,7 +13,9 @@ import Stats from "./Stats";
 import Loading from "./Loading";
 import BlogPosts from "./BlogPosts";
 import Achievements from "./Achievements";
-
+import BackgroundAnimation from "./BackgroundAnimation";
+import ResumeModal from "./ResumeModal";
+import ThemeToggle from "./ThemeToggle";
 
 export {
     Navbar,
@@ -29,4 +31,7 @@ export {
     Loading,
     BlogPosts,
     Achievements,
+    BackgroundAnimation,
+    ResumeModal,
+    ThemeToggle,
 };

@@ -55,6 +55,8 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import uxmint from "./uxmint.png";
+import resumePdf from "./resume.pdf";
 
 export {
   quotes,
@@ -113,5 +115,7 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  uxmint,
+  resumePdf,
 };
