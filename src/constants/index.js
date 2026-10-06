@@ -508,26 +508,10 @@ export const experiences = [
   },
 ];
 
-// All 14 projects from GitHub portfolio
+// All featured projects from GitHub portfolio
 export const projects = [
   {
     id: "project-1",
-    title: "Sify & NSE Network Monorepo",
-    category: "Full Stack & Web",
-    github: "https://github.com/NaveenJsDevops/sifymonorepo",
-    link: "https://sifymonorepo.vercel.app",
-    image: cdc,
-    content:
-      "Enterprise monorepo application collaborated for Sify Technologies and NSE project, featuring high-performance network monitoring dashboards, analytics, and responsive customer portals.",
-    stack: [
-      { id: "i-1", icon: SiNextdotjs, name: "Next.js" },
-      { id: "i-2", icon: SiAngular, name: "Angular" },
-      { id: "i-3", icon: SiNodedotjs, name: "Node.js" },
-      { id: "i-4", icon: SiMongodb, name: "MongoDB" },
-    ],
-  },
-  {
-    id: "project-2",
     title: "Metadata Tree Schema Builder",
     category: "Full Stack & Web",
     github: "https://github.com/NaveenJsDevops/metadata-tree-poc",
@@ -802,7 +786,6 @@ export const itemsToFetch = 20;
 
 // Included GitHub repos for open-source PR fetching
 export const includedRepos = [
-  "NaveenJsDevops/sifymonorepo",
   "NaveenJsDevops/portfolio",
   "NaveenJsDevops/search-engine-golang-react",
   "NaveenJsDevops/invoice-generator",

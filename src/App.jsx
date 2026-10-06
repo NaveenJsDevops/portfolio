@@ -18,6 +18,7 @@ import { FiArrowUp } from "react-icons/fi";
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [showTopBtn, setShowTopBtn] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   // Scroll Progress Bar
   const { scrollYProgress } = useScroll();
@@ -34,6 +35,7 @@ const App = () => {
 
     const handleScroll = () => {
       setShowTopBtn(window.scrollY > 350);
+      setIsScrolled(window.scrollY > 15);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -41,7 +43,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-slate-50 dark:bg-primary text-slate-800 dark:text-slate-100 transition-colors duration-300 w-full overflow-hidden relative min-h-screen selection:bg-indigo-500/25 selection:text-indigo-700 dark:selection:text-indigo-200">
+    <div className="bg-slate-50 dark:bg-primary text-slate-800 dark:text-slate-100 transition-colors duration-300 w-full overflow-x-clip relative min-h-screen selection:bg-indigo-500/25 selection:text-indigo-700 dark:selection:text-indigo-200">
       {/* Top Fixed Gradient Scroll Progress Bar */}
       <motion.div
         className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-400 origin-left z-[9999]"
@@ -63,7 +65,13 @@ const App = () => {
             className="flex flex-col min-h-screen relative"
           >
             {/* Sticky Modern Navbar with Glass Effect */}
-            <header className="sticky top-0 z-50 bg-white/80 dark:bg-[#090d16]/85 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800/60 w-full px-6 sm:px-16 flex justify-center transition-colors shadow-sm">
+            <header
+              className={`sticky top-0 z-50 w-full px-6 sm:px-16 flex justify-center transition-all duration-300 ${
+                isScrolled
+                  ? "bg-white/95 dark:bg-[#090d16]/95 backdrop-blur-md shadow-md border-b border-slate-200/90 dark:border-slate-800/90 py-0.5"
+                  : "bg-white/80 dark:bg-[#090d16]/85 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-800/60"
+              }`}
+            >
               <div className={styles.boxWidth}>
                 <Navbar />
               </div>

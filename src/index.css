@@ -234,3 +234,8 @@
 .animate-cursor-blink {
   animation: blink 0.9s infinite;
 }
+
+/* Sticky Navigation & Overflow utilities */
+.overflow-x-clip {
+  overflow-x: clip;
+}
