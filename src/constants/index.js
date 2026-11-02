@@ -93,7 +93,7 @@ import { DiCss3, DiJava, DiGrails } from "react-icons/di";
 
 export const resumeLink = resumePdf;
 export const repoLink = "https://github.com/NaveenJsDevops/portfolio";
-export const callToAction = "https://www.linkedin.com/in/naveen-js-dev";
+export const callToAction = "https://www.linkedin.com/in/js-naveenkumar/";
 
 export const navLinks = [
   {
@@ -435,7 +435,7 @@ export const experiences = [
         duration: "July 2025 - Present",
         content: [
           {
-            text: "Collaborated on the Sify Technologies project, involving the development and maintenance of the NSE project, network dashboards, and customer portals.",
+            text: "Collaborated on a Network provider company project, involving the development and maintenance of the NSE project, network dashboards, and customer portals.",
           },
           {
             text: "Leveraged Node.js, Next.js, and Angular for full-stack development, ensuring robust and scalable application performance; integrated and managed MongoDB databases to handle complex data requirements and efficient retrieval for dashboards and portals.",
@@ -745,7 +745,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/naveen-js-dev",
+    link: "https://www.linkedin.com/in/js-naveenkumar/",
   },
   {
     id: "social-media-2",

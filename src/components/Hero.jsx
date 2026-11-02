@@ -190,7 +190,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.15, rotate: -6 }}
               whileTap={{ scale: 0.95 }}
-              href="https://www.linkedin.com/in/naveen-js-dev"
+              href="https://www.linkedin.com/in/js-naveenkumar/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl bg-white dark:bg-slate-900 hover:bg-slate-50 dark:hover:bg-slate-800 border border-slate-300 dark:border-slate-800 hover:border-sky-500 text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-300 transition-all text-xl shadow-sm"
