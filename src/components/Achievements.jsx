@@ -7,16 +7,16 @@ import styles from "../style";
 // Varied color accents for the 8 certifications
 const certColors = [
   {
+    borderHover: "hover:border-sky-400/60 hover:shadow-sky-500/10",
+    badge: "bg-sky-50 dark:bg-sky-950/40 text-sky-700 dark:text-sky-300 border-sky-200 dark:border-sky-800",
+    btnHover: "hover:bg-sky-500/10 hover:border-sky-400/50 text-sky-700 dark:text-sky-300",
+    gradient: "from-sky-500 to-blue-600",
+  },
+  {
     borderHover: "hover:border-amber-400/60 hover:shadow-amber-500/10",
     badge: "bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800",
     btnHover: "hover:bg-amber-500/10 hover:border-amber-400/50 text-amber-700 dark:text-amber-300",
     gradient: "from-amber-500 to-orange-500",
-  },
-  {
-    borderHover: "hover:border-sky-400/60 hover:shadow-sky-500/10",
-    badge: "bg-sky-50 dark:bg-sky-950/40 text-sky-700 dark:text-sky-300 border-sky-200 dark:border-sky-800",
-    btnHover: "hover:bg-sky-500/10 hover:border-sky-400/50 text-sky-700 dark:text-sky-300",
-    gradient: "from-sky-500 to-blue-500",
   },
   {
     borderHover: "hover:border-purple-400/60 hover:shadow-purple-500/10",
@@ -138,7 +138,7 @@ const Achievements = () => {
           </div>
 
           {/* Grid of Certifications */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {achievements.map((item, index) => (
               <AchievementCard key={item.id} index={index} {...item} />
             ))}

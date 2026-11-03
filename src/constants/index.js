@@ -36,6 +36,8 @@ import {
   ethforall,
   uxmint,
   resumePdf,
+  googleCloud,
+  googleCloudCertPdf,
   freadom,
   bank,
   todo,
@@ -150,6 +152,14 @@ export const educationList = [
 ];
 
 export const achievements = [
+  {
+    id: "a-0",
+    icon: googleCloud,
+    event: "Google Cloud Gen AI Academy APAC — Cohort 3",
+    position: "Certified",
+    content1: "Google Cloud & Hack2skill — Accelerated AI with Cloud Run: building, deploying, and orchestrating intelligent agents on Google Cloud. (ID: 2026H2S09GCGENAIAPACC3-P02337)",
+    project: googleCloudCertPdf,
+  },
   {
     id: "a-1",
     icon: java,

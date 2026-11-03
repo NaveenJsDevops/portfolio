@@ -57,6 +57,9 @@ import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import uxmint from "./uxmint.png";
 import resumePdf from "./resume.pdf";
+import googleCloud from "./google-cloud.svg";
+import googleCloudCertPdf from "./google-cloud-genai-certificate.pdf";
+import googleCloudCertPng from "./google-cloud-genai-cert.png";
 
 export {
   quotes,
@@ -118,4 +121,7 @@ export {
   ethforall,
   uxmint,
   resumePdf,
+  googleCloud,
+  googleCloudCertPdf,
+  googleCloudCertPng,
 };
